@@ -1,0 +1,162 @@
+.form-table th,
+.form-table td {
+  padding-top: 0;
+  margin-top: 0;
+  padding-left: 0;
+  padding-bottom: 14px;
+}
+
+.style-icon {
+  max-width: 80px;
+}
+
+.style-icon:not(:last-child) {
+  border-right: 1px solid #aaa;
+  padding-right: 1px;
+}
+
+.wrap p.submit {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+input[type="text"],
+input[type="search"],
+input[type="password"],
+input[type="email"],
+textarea {
+  max-width: 100%;
+}
+
+.form-table td span.ctis-image-holder {
+  display: block;
+}
+
+.form-table td span.ctis-image-holder {
+  max-width: 300px;
+}
+
+/* Radio button hiding */
+.switch-icon-holder input[type="radio"] {
+  display: none !important;
+}
+
+.switch-icon-holder {
+  display: flex;
+  width: fit-content;
+  /* border: 1px solid #ddd; */
+}
+
+.switch-icon-holder label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-holder {
+  min-width: 35px;
+}
+
+span.image-holder:first-child {
+  border-right: 1px solid #ddd;
+}
+
+.form-table td span.icon-label {
+  display: flex;
+}
+
+@media screen and (min-width: 48.9375em) {
+  .form-table td span.image-holder {
+    display: flex;
+  }
+}
+
+.form-table td span.image-holder {
+  display: flex;
+  padding: 8px;
+}
+
+.form-table input[type="radio"]:checked + .icon-label {
+  background-color: #3498db;
+  color: #fff;
+  border-color: #3498db;
+}
+
+.form-table input[type="radio"]:checked + .icon-label span.image-holder {
+  /* border: none; */
+}
+
+.icon-scheme {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid #ddd; */
+}
+
+.icon-scheme label {
+  width: calc(20% - 10px);
+}
+
+.image-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+}
+
+.icon-scheme input[type="radio"] {
+  display: none !important;
+}
+
+.form-table input[type="radio"]:checked + .image-holder {
+  background-color: #3498db;
+  color: #fff;
+  border-color: #3498db;
+}
+
+.switch-icon-holder label {
+	margin-right: 10px;
+}
+
+.icon-scheme label {
+  margin: 0 10px 10px 0;
+}
+
+.icon-scheme .image-holder img {
+  width: 160px;
+  margin-bottom: 5px;
+}
+
+#adminmenu .wp-menu-image img {
+    padding: 6px 0 0 0;
+    max-width: 20px;
+    filter: invert(1);
+    opacity: 1;
+}
+
+
+
+.icon-scheme label, 
+.switch-icon-holder label {
+  position: relative;
+}
+span.pro-tag {
+  position: absolute;
+  z-index: 2;
+  color: #fff;
+  right: 5px;
+  background-color: red;
+  border-radius: 5px;
+  top: 5px;
+  padding: 5px;
+}
+
+label.pro .image-holder img {
+  filter: blur(4px);
+}
+
+.module-header.inactive {
+    display: inline-block;
+    width: 35px;
+    padding-bottom: 5px;
+}
